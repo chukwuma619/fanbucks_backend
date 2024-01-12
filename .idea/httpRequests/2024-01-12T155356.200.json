@@ -1,0 +1,22 @@
+{
+  "args": {},
+  "data": "{\n  \"id\": 999,\n  \"value\": \"content\"\n}",
+  "files": {},
+  "form": {},
+  "headers": {
+    "Accept-Encoding": "br,deflate,gzip,x-gzip",
+    "Content-Length": "37",
+    "Content-Type": "application/json",
+    "Host": "ijhttp-examples.jetbrains.com",
+    "User-Agent": "Apache-HttpClient/4.5.14 (Java/17.0.9)",
+    "X-Forwarded-Host": "ijhttp-examples.jetbrains.com",
+    "X-Forwarded-Scheme": "https",
+    "X-Scheme": "https"
+  },
+  "json": {
+    "id": 999,
+    "value": "content"
+  },
+  "origin": "129.205.113.181",
+  "url": "https://ijhttp-examples.jetbrains.com/post"
+}

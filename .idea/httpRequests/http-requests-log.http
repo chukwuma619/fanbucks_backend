@@ -1,0 +1,340 @@
+POST http://localhost:8000/login/
+Content-Length: 61
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "testuser1@email.com",
+  "password": "1234"
+}
+
+<> 2024-01-12T162513.500.html
+
+###
+
+POST http://localhost:8000/login/
+Content-Length: 61
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "testuser1@email.com",
+  "password": "1234"
+}
+
+<> 2024-01-12T162102.500.html
+
+###
+
+POST http://localhost:8000/login/
+Content-Length: 61
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "testuser1@email.com",
+  "password": "1234"
+}
+
+<> 2024-01-12T162035.404.html
+
+###
+
+POST http://localhost:8000/api/auth/login/
+Content-Length: 61
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "testuser1@email.com",
+  "password": "1234"
+}
+
+<> 2024-01-12T161806.401.json
+
+###
+
+POST http://localhost:8000/api/auth/login/
+Content-Length: 61
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "testuser1@email.com",
+  "password": "1234"
+}
+
+<> 2024-01-12T161758.401.json
+
+###
+
+POST http://localhost:8000/api/auth/login/
+Content-Length: 61
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "testuser1@email.com",
+  "password": "1234"
+}
+
+<> 2024-01-12T161753.401.json
+
+###
+
+POST http://localhost:8000/api/auth/login/
+Content-Length: 61
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "testuser1@email.com",
+  "password": "1234"
+}
+
+<> 2024-01-12T160429.401.json
+
+###
+
+POST http://localhost:8000/register/
+Content-Length: 64
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "testuser1@email.com",
+  "password": "content"
+}
+
+<> 2024-01-12T155817.400.json
+
+###
+
+POST http://localhost:8000/register/
+Content-Length: 61
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "testuser1@email.com",
+  "password": "content"
+}
+
+<> 2024-01-12T155806.400.json
+
+###
+
+POST http://localhost:8000/register/
+Content-Length: 46
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "test",
+  "password": "content"
+}
+
+<> 2024-01-12T155712.400.json
+
+###
+
+POST http://localhost:8000/register/
+Content-Length: 78
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+Content-Type: application/json
+
+{
+  "email": "test",
+  "password": "content"
+}
+
+<> 2024-01-12T155606.400.json
+
+###
+
+POST https://ijhttp-examples.jetbrains.com/post
+Content-Type: application/json
+Content-Length: 37
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2024-01-12T155356.200.json
+
+###
+
+POST http://localhost:8000/register/
+Content-Length: 78
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+Content-Type: application/json
+
+{
+  "email": "test",
+  "password": "content"
+}
+
+<> 2024-01-12T153403.400.json
+
+###
+
+POST http://localhost:8000/register/
+Content-Length: 69
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2024-01-12T153232.400.json
+
+###
+
+POST http://localhost:8000/register/
+Content-Length: 69
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2024-01-12T152513.404.html
+
+###
+
+POST http://localhost:8000/api/register/
+Content-Length: 91
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+Content-Type: application/json
+
+{
+  "email": testemail@email.com,
+  "password": "content"
+}
+
+<> 2024-01-12T151959.400.json
+
+###
+
+POST http://localhost:8000/api/register/
+Content-Length: 91
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+Content-Type: application/json
+
+{
+  "email": testemail@email.com,
+  "password": "content"
+}
+
+<> 2024-01-12T151820.404.html
+
+###
+
+POST http://localhost:8000/api/auth/register/
+Content-Length: 91
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+Content-Type: application/json
+
+{
+  "email": testemail@email.com,
+  "password": "content"
+}
+
+<> 2024-01-12T151712.400.json
+
+###
+
+POST http://localhost:8000/auth/register/
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-12T151452-1.404.html
+
+###
+
+POST http://localhost:8000/auth/register/
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-12T151452.404.html
+
+###
+
+POST http://localhost:8000/auth/register/
+Content-Length: 91
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+Content-Type: application/json
+
+{
+  "email": testemail@email.com,
+  "password": "content"
+}
+
+<> 2024-01-12T151427.404.html
+
+###
+
