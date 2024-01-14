@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af10b237-e982-4430-84df-c6b98fcae8e5" name="Changes" comment="feat: add bucks models and route">
-      <change afterPath="$PROJECT_DIR$/vercel.json" afterDir="false" />
+    <list default="true" id="af10b237-e982-4430-84df-c6b98fcae8e5" name="Changes" comment="feat: config vercel">
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/129d9f31-31ba-4c28-8028-90310f4c6764.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/129d9f31-31ba-4c28-8028-90310f4c6764.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e89df9d1-5417-4022-b1df-ad03332ee34c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e89df9d1-5417-4022-b1df-ad03332ee34c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/migrations/0002_user_profile_pic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/migrations/0003_buck.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/migrations/0004_alter_buck_amount.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/migrations/0005_alter_user_id.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/migrations/0006_alter_buck_amount.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fanbucks_backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/fanbucks_backend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vercel.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +246,7 @@
       <workItem from="1705062847134" duration="13490000" />
       <workItem from="1705187408567" duration="32000" />
       <workItem from="1705228722634" duration="9765000" />
-      <workItem from="1705238945534" duration="5750000" />
+      <workItem from="1705238945534" duration="10669000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add bucks models and route">
       <option name="closed" value="true" />
@@ -253,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705244002392</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: config vercel">
+      <option name="closed" value="true" />
+      <created>1705257816336</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705257816336</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +287,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="feat: add bucks models and route" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add bucks models and route" />
+    <MESSAGE value="feat: config vercel" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: config vercel" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
