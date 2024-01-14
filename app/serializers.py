@@ -1,14 +1,15 @@
-from rest_framework import serializers
 from django.contrib.auth import get_user_model
 from rest_framework import serializers
+from app.models import Buck
 
 User = get_user_model()
 
 
 class UserSerializer(serializers.ModelSerializer):
+    profile_pic = serializers.ImageField(max_length=None, use_url=False, required=False)
+
     class Meta:
         model = User
-        fields = '__all__'
         exclude = ['password', "groups", "user_permissions"]
         read_only_fields = ['username']
 
@@ -28,3 +29,10 @@ class CreateUserSerializer(serializers.ModelSerializer):
         user.set_password(validated_data.get('password'))
         user.save()
         return user
+
+
+class BuckSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Buck
+        fields = '__all__'
+        extra_kwargs = {'owner': {'read_only': True}}

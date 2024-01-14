@@ -6,7 +6,7 @@
 
 ### Register a new user
 
-**Endpoint:** `/register/`
+**Endpoint:** `/api/auth/register/`
 
 **Method:** `POST`
 
@@ -47,7 +47,7 @@
 
 ### Log in an existing user
 
-**Endpoint:** `/login/`
+**Endpoint:** `/api/auth/login/`
 
 **Method:** `POST`
 
@@ -74,9 +74,22 @@
 ```
 
 
+### Log out an existing user
+
+**Endpoint:** `/api/auth/logout/`
+
+**Method:** `POST`
+
+**Authentication:** `Token-based (Include the obtained token in the Authorization header)`
+
+**Request Payload:** None
+
+**Response:** None
+
+
 ## User Profile
 ### Retrieve user profile information
-**Endpoint:** `/user/`
+**Endpoint:** `/api/user/`
 
 **Method:** `GET`
 
@@ -104,7 +117,7 @@
 ```
 
 ### Update user profile information
-**Endpoint:** `/user/`
+**Endpoint:** `/api/user/`
 
 **Method:** `PUT`
 
@@ -147,6 +160,141 @@
   "bio": "Updated user bio."
 }
 
+
+```
+
+
+
+## Bucks
+
+### Get all bucks for auth user
+**Endpoint:** `/api/bucks/`
+
+**Method:** `GET`
+
+**Authentication:** `Token-based (Include the obtained token in the Authorization header)`
+
+**Response:**
+
+```json
+[
+    {
+        "id": "b7df8094-f6c2-4b69-a4f7-daebfaa32caa",
+        "title": "Buy new Macbook M1 Laptop",
+        "description": "i want you guys to help me achieve my gool",
+        "amount": 1000000,
+        "status": "Pending",
+        "owner": "14690570-06e5-4f21-b69d-ffa33accbd7f"
+    },
+    {
+        "id": "e151e5f7-479e-42e9-8bf0-c5426bc36585",
+        "title": "Buy new Macbook M1 Laptop",
+        "description": "i want you guys to help me achieve my gool",
+        "amount": 1000000,
+        "status": "Pending",
+        "owner": "14690570-06e5-4f21-b69d-ffa33accbd7f"
+    }
+]
+
+```
+
+## Create Bucks
+**Endpoint:** `/api/bucks/`
+
+**Method:** `POST`
+
+**Authentication:** `Token-based (Include the obtained token in the Authorization header)`
+
+
+**Request Payload:**
+
+```json
+{
+  "title":"Buy new Macbook M1 Laptop",
+  "description":"i want you guys to help me achieve my gool",
+  "amount":"1000000.00"
 }
 
 ```
+
+**Response:**
+
+```json
+{
+    "id": "e151e5f7-479e-42e9-8bf0-c5426bc36585",
+    "title": "Buy new Macbook M1 Laptop",
+    "description": "i want you guys to help me achieve my gool",
+    "amount": "1000000.00",
+    "status": "Pending",
+    "owner": "14690570-06e5-4f21-b69d-ffa33accbd7f"
+}
+```
+
+## Retrieve a Specific Buck
+**Endpoint:** `/api/bucks/{uuid}/`
+
+**Method:** `GET`
+
+**Authentication:** `Token-based (Include the obtained token in the Authorization header)`
+
+**Response:**
+
+```json
+{
+    "id": "e151e5f7-479e-42e9-8bf0-c5426bc36585",
+    "title": "Buy new Macbook M1 Laptop",
+    "description": "i want you guys to help me achieve my gool",
+    "amount": "1000000.00",
+    "status": "Pending",
+    "owner": "14690570-06e5-4f21-b69d-ffa33accbd7f"
+}
+
+```
+
+
+## Update a specific Buck 
+**Endpoint:** `/api/bucks/{uuid}/`
+
+**Method:** `PUT/PATCH`
+
+**Authentication:** `Token-based (Include the obtained token in the Authorization header)`
+
+
+**Request Payload:**
+
+```json
+{
+    "title": "Buy new Macbook M1 Laptop",
+    "description": "i want you guys to help me achieve my gool",
+    "amount": "1000000.00",
+    "status": "Complete"
+}
+
+```
+
+
+
+
+**Response:**
+
+```json
+{
+    "id": "e151e5f7-479e-42e9-8bf0-c5426bc36585",
+    "title": "Buy new Macbook M1 Laptop",
+    "description": "i want you guys to help me achieve my gool",
+    "amount": "1000000.00",
+    "status": "Complete",
+    "owner": "14690570-06e5-4f21-b69d-ffa33accbd7f"
+}
+
+```
+
+
+
+## Delete a specific Buck 
+**Endpoint:** `/api/bucks/{uuid}/`
+
+**Method:** `DELETE`
+
+**Authentication:** `Token-based (Include the obtained token in the Authorization header)`
+
